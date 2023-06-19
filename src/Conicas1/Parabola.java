@@ -58,7 +58,7 @@ public class Parabola {
     public float parabola(float h, float k, float a, float b){
         return (this.k=k);
     }
-    private float calculo_eje_horizontal(){
+    public float calculo_eje_horizontal(){
         this.h = (((y*y) - (2*y*k) + (k*k) - (4*a*x)) / (-4*a));
         return h;
     }

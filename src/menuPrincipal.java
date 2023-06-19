@@ -43,7 +43,7 @@ public class menuPrincipal {
                 }
                 case 4:{
                     System.out.println("\n\t\t PARABOLA\n");
-                    System.out.println("Eje horizontal: " + figura4.imprimirDatos());
+                    System.out.println("Eje horizontal: " + figura4.calculo_eje_horizontal());
                     break;
                 }
                 case 0:{
